@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -g -nostartfiles -Map=Sample.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\Sample -TC:\CooCox\CoIDE\configuration\ProgramData\Sample/link.ld -g">
+      <target file="Sample.elf" lastModified="148c627d408">
+         <source file="..\obj\stm32f10x_tim.o" lastModified="148c616f73d"/>
+         <source file="..\obj\startup_stm32f10x_md_vl.o" lastModified="148c616f7e9"/>
+         <source file="..\obj\system_stm32f10x.o" lastModified="148c616f901"/>
+         <source file="..\obj\stm32f10x_gpio.o" lastModified="148c616fa68"/>
+         <source file="..\obj\main.o" lastModified="148c627d0ae"/>
+         <source file="..\obj\system.o" lastModified="148c626e8ff"/>
+         <source file="..\obj\Delay.o" lastModified="148c616fe3f"/>
+         <source file="..\obj\stm32f10x_rcc.o" lastModified="148c616fff4"/>
+         <source file="..\obj\stm32f10x_exti.o" lastModified="148c617011c"/>
+         <source file="..\obj\syscalls.o" lastModified="148c61702b2"/>
+         <source file="..\obj\stm32f10x_flash.o" lastModified="148c6170486"/>
+         <source file="..\obj\stm32f10x_it.o" lastModified="148c61705fc"/>
+         <source file="..\obj\misc.o" lastModified="148c6170715"/>
+      </target>
+   </processor>
+</history>
